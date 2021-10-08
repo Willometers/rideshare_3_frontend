@@ -14,9 +14,9 @@ const Drivers = () => {
 
     return (
         <div>
-            Drivers:
+            <h1>Drivers:</h1>
             <ul>
-                {drivers.map(driver => <li>{driver.name}</li>)}
+                {drivers.map(driver => <li>{driver.name}, Rating: {driver.rating}</li>)}
             </ul>
         </div>
     )

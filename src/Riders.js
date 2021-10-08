@@ -13,9 +13,9 @@ const Riders = () => {
 
     return (
         <div>
-            Riders:
+            <h1>Riders:</h1>
             <ul>
-            {riders.map(rider => <li>{rider.name}</li>)}
+            {riders.map(rider => <li>{rider.name}, Rating: {rider.rating}</li>)} 
             </ul>
         </div>
     )

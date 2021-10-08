@@ -9,13 +9,13 @@ const Navigation = () => {
                 exact 
                 >Home</NavLink>
             <NavLink 
-                to="/drivers"
-                exact 
-                >Drivers</NavLink>
-            <NavLink 
                 to="/riders"
                 exact 
                 >Riders</NavLink>
+            <NavLink 
+                to="/drivers"
+                exact 
+                >Drivers</NavLink>
             <NavLink 
                 to="/trips"
                 exact 
